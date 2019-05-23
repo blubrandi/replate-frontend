@@ -1,10 +1,15 @@
 import React from 'react';
-import './App.css';
+import './App.css'
 
-function App() {
+import Requests from './components/Requests/Requests.js'
+
+function App(props) {
   return (
     <div className="App">
-      <h1>This is my app....</h1>
+      <>
+        <h1>Hi...</h1>
+        <Requests />
+      </>
     </div>
   );
 }
